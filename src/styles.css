@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: verdana, arial, helvetica;
+  color: #353535
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #F1F1F1;
+  margin-bottom:150px;
+}
+
+header div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+header div span{
+  display: block;
+  text-align:center;
+}
+
+.logo-1{
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: -25px;
+}
+
+.logo-2{
+  letter-spacing: 23px;
+}
+
+.blog-posts-container{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  padding: 20px;
+  background-color: #F1F1F1;
+}
+
+.blog-posts-container img{
+  width:100%;
+  margin-bottom:20px;
+}
+
+.blog-posts-container h2{
+  margin-bottom: 20px;
+}
+
+.blog-posts-container .author{
+  margin-bottom: 20px;
+}
+
+.blog-posts-container .summary{
+  margin-bottom: 20px;
+}
+
+.blog-posts-container a{
+  text-decoration: none;
+  background-color: #353535;
+  color:white;
+  padding: 10px 20px;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.post-container{
+max-width: 600px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 20px;
+  background-color: #F1F1F1;
+  overflow: hidden;
+}
+.post-container img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.post-container h2 {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.post-container p{
+margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.author{
+  color: #aaa
+}
