@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+##Project Description
+
+This is a blog application that is built using a headless CMS called contentful. The contentful application is used to load the data into different fields like image, rich text etc., These details are then accessed via the contentful API in the front end application that uses Angular.
+The detailed description about the API can be found on https://www.contentful.com/developers/docs/references/
